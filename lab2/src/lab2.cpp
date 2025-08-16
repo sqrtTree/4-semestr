@@ -9,12 +9,12 @@ using namespace std;
 
 struct Node
 {
-    int val, balance;            //ключ
+    int val, balance;
     Node *left, *right, *parent;
     Node(int v)
     {
         val = v;
-        balance = 0;           //баланс
+        balance = 0;
         left = right = parent = NULL; }
 };
 
